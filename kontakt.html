@@ -18,9 +18,9 @@
 
  .title {font-size: 93px; font-weight: 700; color: rgb(224, 61, 61);}
  
- * {box-sizing: border-box; font-size: 40px;}
+ * {box-sizing: border-box;}
  
- table.content {border-collapse: collapse; min-width: 200px; margin-left: 650px; margin-top: 100px;}
+ table.content {border-collapse: collapse; min-width: 200px; margin-left: 23%; margin-top: 100px; font-size: 40px;}
  
  table.content thead tr {background-color: whitesmoke; font-weight: 700;
  text-align: left;}
@@ -35,25 +35,30 @@
  a:hover {text-decoration: underline;}
 
  @media (max-width: 1300px) {
+ .material-symbols-outlined {font-size: 40px;}
  .content {font-size: 15px;}
- table.content {margin-left: 30px;}
+ table.content {margin-left: 30px; font-size: 18px;}
  .title {font-size: 70px;}
- .headline {display: block; justify-content: left; margin-left: 30px;}
+ .headline {display: block; justify-content: left; margin-left: none;}
  }
 
  @media (max-width: 800px) {
- .knt {font-size: 10px;}
- table.content {margin-left: 1px;}
- .title {font-size: 70px;}
+ .material-symbols-outlined {font-size: 40px;}
+ table.content {margin-left: 1px; font-size: 9px;}
+ .title {font-size: 55px;}
  .headline {display: block; justify-content: left; margin-left: 1px;}
  table.content thead tr {font-weight: 700;}
  table.content tbody tr {font-weight: 450;}
+ 
  }
 
- .material-symbols-outlined {
-  display: block; justify-content: right; font-size: 40px;
+ @media (max-width: 300px) {
+   .material-symbols-outlined {font-size: 35px;
+   display: flex; justify-content: right;}
+   .title {font-size: 45px;}
  }
 
+ .material-symbols-outlined {font-size: 40px;}
 
  </style>
 
